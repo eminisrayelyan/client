@@ -28,13 +28,17 @@ function App() {
 }, []);
 
 
+const handleButtonClick = () => {
+  socket.emit('increase-count');
+}
+
   return (
   
      
 
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button onClick={handleButtonClick}>
+          Click to increase count
         </button>
 
         <p>Your count is {count}</p>
