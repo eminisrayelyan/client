@@ -61,7 +61,7 @@ const handleButtonClick = () => {
                 left: `calc(${(count / 30) * 100}%)`,
                 marginBottom: '10px',
                 backgroundColor: 'green',  
-                transition: `left ${pxPerTile * 3} ms linear`    
+                transition: `left ${pxPerTile * 3}ms linear`    
               }}
             />
             
@@ -74,7 +74,7 @@ const handleButtonClick = () => {
                 left: `calc(${(count / 30) * 100}%)`,
                 marginBottom: '10px',
                 backgroundColor: 'green',
-                transition: `left ${pxPerTile * 3} ms linear`    
+                transition: `left ${pxPerTile * 3}ms linear`    
               }}
               key={index}
             />
@@ -88,5 +88,5 @@ const handleButtonClick = () => {
     </div>
     )
 }
-  
+
 export default App
